@@ -89,11 +89,19 @@
 .sf-arrows > li > .sf-with-ul:focus:after,
 .sf-arrows > li:hover > .sf-with-ul:after,
 .sf-arrows > .sfHover > .sf-with-ul:after {
-	content: "";
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	height: 4px;
-	width: 40px;
-	background: black; /* IE8 fallback colour */
+	/* IE8 fallback colour */
+}
+.sf-with-ul:hover {
+	font-weight: 600;
+}
+
+a:hover {
+	font-weight: 600;
+}
+
+.menu-rotate-lf .menu-children-lv2 {
+	position: absolute !important;
+	top: 62px !important;
+	right: 25px !important;
+	left: auto;
 }

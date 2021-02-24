@@ -1,23 +1,6 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Roboto", sans-serif;
-  color: #000;
-}
-
-p,
-li {
+li a {
   font-weight: 500;
-  letter-spacing: 0.5px;
 }
-p {
-  line-height: 25px;
-}
-
 li {
   line-height: 50px;
 }
@@ -29,28 +12,12 @@ li {
   color: #000 !important;
 }
 
-.item--menu-1:hover:after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 4px;
-  width: 40px;
-  background: black;
-}
-
 .item--menu ul li {
   min-height: fit-content !important;
   background: rgba($color: #fff, $alpha: 0.5) !important;
   color: #000 !important;
+
   &:hover .item--menu-1:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 4px;
-    width: 40px;
-    background: black;
   }
   & a {
     border: none !important;
@@ -62,22 +29,11 @@ li {
     }
   }
 }
+
 .menu-children-lv3 {
   margin-left: 5px;
 }
-.main-title {
-  font-size: 30px;
-  font-weight: 600;
-  line-height: 25px;
-  text-transform: uppercase;
-}
 
-.main-title-1 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 25px;
-  text-transform: uppercase;
-}
 .container-fluid {
   padding: 0 !important;
   margin: 0 !important;
@@ -113,6 +69,7 @@ li {
       filter: blur(0.75px);
     }
   }
+
   &-wrapper__title {
     margin-top: 200px;
     font-size: 64px;
@@ -120,6 +77,7 @@ li {
     line-height: 100px;
     text-align: left;
   }
+
   &-wrapper__btn {
     background: #fff;
     color: black;
@@ -138,10 +96,12 @@ li {
   height: 74px;
   overflow: hidden;
 }
+
 .container-fluid-home-banner {
   width: 100%;
   height: 80vh;
 }
+
 .test-1__open {
   min-height: auto;
   max-height: auto;
@@ -170,6 +130,11 @@ li {
   width: 1000px;
   min-height: 500px;
   margin: auto;
+  & p {
+    margin-top: 24px;
+    font-weight: 400;
+    line-height: 24px !important;
+  }
 
   &:hover &__img {
     -webkit-transition: -webkit-transform 0.5s ease-in-out;
@@ -232,6 +197,7 @@ a {
     padding: 20px;
   }
 }
+
 .btn-social-zl {
   color: #fff;
   font-weight: 600;
@@ -263,19 +229,19 @@ a {
   }
 }
 
-.swiper-button-next,
-.swiper-button-prev {
+.swiper-button-next-banner,
+.swiper-button-prev-banner {
   color: transparent !important;
   width: 200px;
   height: 500px;
 
   position: absolute;
 }
-.swiper-button-next {
+.swiper-button-next-banner {
   top: 0;
   right: 0;
 }
-.swiper-button-prev {
+.swiper-button-prev-banner {
   top: 0;
   left: 0;
 }
