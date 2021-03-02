@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Prata&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 
-$orange: #cc5500;
-$green: #219653;
+$green: #198754;
+$green-1: #789a3d;
 $gray: #bdc3c7;
-$blue: #2c3e50;
 $white: #fff;
 
 * {
@@ -147,7 +146,7 @@ body {
       bottom: 24%;
       left: 50%;
 
-      transform: translate(-45%, -50%);
+      transform: translate(-50%, 0);
     }
     &-video {
       margin-top: 20px;
@@ -699,7 +698,7 @@ button.active {
 
       text-align: left;
       text-transform: uppercase;
-      color: $orange;
+      color: $green;
     }
 
     & .title-3 {
@@ -723,10 +722,6 @@ button.active {
   height: 100%;
   padding: 0;
   margin: 0;
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
 
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -741,9 +736,10 @@ button.active {
       transform: scale(1.25);
     }
     &__img {
-      width: 100%;
+      width: 96%;
       height: 60vh;
       overflow: hidden;
+      margin-left: 20px !important;
 
       & img {
         width: 100%;
@@ -772,7 +768,7 @@ button.active {
         overflow: hidden;
         transition: all 0.3s linear;
         &:hover {
-          color: $orange;
+          color: black;
         }
       }
     }
@@ -784,7 +780,7 @@ button.active {
       font-weight: 300 !important;
       margin-right: 15px;
       margin-left: 20px;
-      background: $orange !important;
+      background: $green !important;
     }
 
     &__time {
@@ -802,7 +798,7 @@ button.active {
 
       &:hover a p {
         font-size: 36px;
-        color: $orange;
+        color: $green;
         text-align: left;
       }
     }
@@ -815,7 +811,7 @@ button.active {
 
       & p {
         font-size: 36px;
-        color: $orange;
+        color: $green;
         text-align: left;
 
         font-weight: 600 !important;
@@ -834,7 +830,7 @@ button.active {
           transition: all 0.4s linear;
         }
         &:hover {
-          color: $orange;
+          color: $green;
         }
       }
     }
@@ -874,7 +870,7 @@ button.active {
       font-size: 11px !important;
       font-weight: 300 !important;
 
-      background: $orange !important;
+      background: $green !important;
       margin-right: 5px;
     }
 
@@ -895,7 +891,7 @@ button.active {
 
         transition: all 0.3s linear;
         &:hover {
-          color: $orange;
+          color: $green;
         }
       }
     }

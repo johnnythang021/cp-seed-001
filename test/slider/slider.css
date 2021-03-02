@@ -133,8 +133,8 @@ body {
   position: absolute;
   bottom: 24%;
   left: 50%;
-  -webkit-transform: translate(-45%, -50%);
-          transform: translate(-45%, -50%);
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
 }
 
 .introduce__3-video {
@@ -319,7 +319,7 @@ body {
   margin-top: 150px;
   font-size: 64px;
   font-weight: 700;
-  color: #219653;
+  color: #198754;
 }
 
 .banner-right__des {
@@ -334,8 +334,8 @@ body {
   width: 200px;
   margin-top: 15px;
   padding: 16px 16px;
-  border: 1px solid #219653;
-  color: #219653;
+  border: 1px solid #198754;
+  color: #198754;
   border-radius: 0;
   font-weight: 600;
   font-size: 13px;
@@ -343,8 +343,8 @@ body {
 }
 
 .banner-right__btn:hover {
-  background-color: #219653;
-  border: 1px solid #219653;
+  background-color: #198754;
+  border: 1px solid #198754;
 }
 
 .banner-swiper-button-next {
@@ -394,7 +394,7 @@ body {
   padding: 50px 60px;
   width: 40%;
   height: 80%;
-  background: #219653;
+  background: #198754;
   overflow: hidden;
 }
 
@@ -419,7 +419,7 @@ body {
   left: 280px;
   width: 40%;
   height: 80%;
-  background: #219653;
+  background: #198754;
   overflow: hidden;
   z-index: -1;
 }
@@ -434,7 +434,7 @@ body {
 
 .vision-right h3 {
   font-weight: 700;
-  color: #219653;
+  color: #198754;
 }
 
 .vision-right p {
@@ -445,12 +445,12 @@ body {
 
 button.active {
   font-weight: 700;
-  background: #219653 !important;
+  background: #198754 !important;
 }
 
 .nav-link:focus {
   outline: none !important;
-  background: #219653 !important;
+  background: #198754 !important;
 }
 
 .my-tab-link-1__btn-1 {
@@ -592,7 +592,7 @@ button.active {
 .my-tab-link-2__svg-2,
 .my-tab-link-2__svg-3 {
   margin-top: 10px;
-  fill: #219653;
+  fill: #198754;
 }
 
 .nav-tabs {
@@ -665,7 +665,7 @@ button.active {
   margin-top: 30px;
   font-size: 48px;
   font-weight: 900;
-  color: #219653;
+  color: #198754;
   margin-bottom: 30px !important;
   position: relative;
 }
@@ -674,7 +674,7 @@ button.active {
   content: "";
   width: 150px;
   height: 3px;
-  background: #219653;
+  background: #198754;
   position: absolute;
   bottom: -10px;
   left: 0;
@@ -687,7 +687,7 @@ button.active {
   font-weight: 900;
   text-align: left;
   text-transform: uppercase;
-  color: #cc5500;
+  color: #198754;
 }
 
 .services-right .title-3 {
@@ -706,11 +706,6 @@ button.active {
   height: 100%;
   padding: 0;
   margin: 0;
-  background: rgba(255, 255, 255, 0.25);
-  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
@@ -728,9 +723,10 @@ button.active {
 }
 
 .news-left__img {
-  width: 100%;
+  width: 96%;
   height: 60vh;
   overflow: hidden;
+  margin-left: 20px !important;
 }
 
 .news-left__img img {
@@ -752,7 +748,7 @@ button.active {
 .news-left__title a p {
   font-size: 27px;
   font-weight: 600;
-  color: #219653;
+  color: #198754;
   margin-bottom: 0 !important;
   margin-left: 20px;
   text-align: left;
@@ -765,7 +761,7 @@ button.active {
 }
 
 .news-left__title a p:hover {
-  color: #cc5500;
+  color: black;
 }
 
 .news-left__tag span {
@@ -775,7 +771,7 @@ button.active {
   font-weight: 300 !important;
   margin-right: 15px;
   margin-left: 20px;
-  background: #cc5500 !important;
+  background: #198754 !important;
 }
 
 .news-left__time {
@@ -788,13 +784,13 @@ button.active {
 }
 
 .news-right__link {
-  border-bottom: 3px #219653 solid;
+  border-bottom: 3px #198754 solid;
   margin-bottom: 20px;
 }
 
 .news-right__link:hover a p {
   font-size: 36px;
-  color: #cc5500;
+  color: #198754;
   text-align: left;
 }
 
@@ -807,10 +803,10 @@ button.active {
 
 .news-right__link a p {
   font-size: 36px;
-  color: #cc5500;
+  color: #198754;
   text-align: left;
   font-weight: 600 !important;
-  color: #219653;
+  color: #198754;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
@@ -819,7 +815,7 @@ button.active {
   width: 35px;
   height: 35px;
   margin-left: 40px;
-  fill: #219653;
+  fill: #198754;
   position: absolute;
   top: 17px;
   left: 300px;
@@ -828,7 +824,7 @@ button.active {
 }
 
 .news-right__link a p:hover {
-  color: #cc5500;
+  color: #198754;
 }
 
 .news-right__card {
@@ -868,7 +864,7 @@ button.active {
   text-transform: uppercase !important;
   font-size: 11px !important;
   font-weight: 300 !important;
-  background: #cc5500 !important;
+  background: #198754 !important;
   margin-right: 5px;
 }
 
@@ -881,7 +877,7 @@ button.active {
   font-size: 13px;
   font-weight: 600;
   margin-top: 10px;
-  color: #219653;
+  color: #198754;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
@@ -891,7 +887,7 @@ button.active {
 }
 
 .news-right__title p:hover {
-  color: #cc5500;
+  color: #198754;
 }
 
 .news .card {
